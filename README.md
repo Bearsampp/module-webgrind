@@ -28,7 +28,7 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 |                  | Webgrind release date | Neard release | Download |
 | -----------------|:---------------------:|:-------------:|:--------:|
 | **Webgrind 1.0** ![](https://raw.github.com/crazy-max/neard-app-phpmyadmin/master/img/star-20160403.png) | 2009/02/20 | [r1](https://github.com/crazy-max/neard-app-webgrind/releases/tag/r1) | [neard-webgrind-1.0-r1.zip](https://github.com/crazy-max/neard-app-webgrind/releases/download/r1/neard-webgrind-1.0-r1.zip) |
-| **Webgrind 1.1** | 2015/03/23 | [r2](https://github.com/crazy-max/neard-app-webgrind/releases/tag/r2) | [neard-webgrind-1.1-r2.zip](https://github.com/crazy-max/neard-app-webgrind/releases/download/r1/neard-webgrind-1.1-r2.zip) |
+| **Webgrind 1.1** | 2015/03/23 | [r2](https://github.com/crazy-max/neard-app-webgrind/releases/tag/r2) | [neard-webgrind-1.1-r2.zip](https://github.com/crazy-max/neard-app-webgrind/releases/download/r2/neard-webgrind-1.1-r2.zip) |
 
 ## Sources
 
