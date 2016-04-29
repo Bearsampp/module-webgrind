@@ -1,6 +1,6 @@
 This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving Webgrind app bundles.
 
-## Download and installation
+## Documentation and downloads
 
 See [Webgrind Wiki page on Neard](https://github.com/crazy-max/neard/wiki/appWebgrind).
 
