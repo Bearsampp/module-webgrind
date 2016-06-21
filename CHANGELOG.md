@@ -2,6 +2,10 @@
 
 ### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/appWebgrind#latest) before downloading.
 
+## r3 (2016/06/21)
+
+* New bundle : 1.3.1
+
 ## r2 (2016/04/07)
 
 * New bundle : 1.1
