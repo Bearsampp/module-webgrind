@@ -23,12 +23,7 @@
     <getbundlesrc name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
     
     <propertyregex property="bundle.srcbasename" input="${bundle.srcfilename}" regexp="(.*)\.(.*)" select="\1"/>
-    <if>
-      <not><available file="${bundle.srcdest}/${bundle.srcbasename}/config.php" type="file"/></not>
-      <then>
-        <fail message="File not found: ${bundle.srcdest}/${bundle.srcbasename}/config.php"/>
-      </then>
-    </if>
+    <assertfile file="${bundle.srcdest}/${bundle.srcbasename}/config.php"/>
     
     <if>
       <available file="${bundle.srcdest}/${bundle.srcbasename}/composer.json" type="file"/>
@@ -48,10 +43,12 @@
     <delete dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <mkdir dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
-      <fileset dir="${bundle.srcdest}/${bundle.srcbasename}" defaultexcludes="yes" excludes="
+      <fileset dir="${bundle.srcdest}/${bundle.srcbasename}" excludes="
         composer.*,
         README.md"
       />
+    </copy>
+    <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
       <fileset dir="${bundle.path}" defaultexcludes="yes"/>
     </copy>
   </target>
