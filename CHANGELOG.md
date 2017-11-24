@@ -2,15 +2,15 @@
 
 ## r5 (2017/09/02)
 
-* New release : 1.5.0 (Issue crazy-max/neard#316)
+* New release : 1.5.0 (Issue neard/neard#316)
 
 ## r4 (2016/10/07)
 
-* New release : 1.4.0 (Issue crazy-max/neard#120)
+* New release : 1.4.0 (Issue neard/neard#120)
 
 ## r3 (2016/06/21)
 
-* New release : 1.3.1 (Issue crazy-max/neard#120)
+* New release : 1.3.1 (Issue neard/neard#120)
 
 ## r2 (2016/04/07)
 
