@@ -5,7 +5,7 @@ This is a module of [Neard project](https://github.com/neard/neard) involving We
 
 ## Documentation and downloads
 
-http://neard.io/modules/webgrind
+https://neard.io/modules/webgrind
 
 ## Issues
 
